@@ -6,6 +6,12 @@ public class Game {
 		System.out.println("A:0 & B:0");
 		System.out.println("lets play!!!");
 	}
+	double roll_dice()
+	{
+		double value=(Math.floor(Math.random()*10)%6)+1;
+		//System.out.println(value);
+		return value;
+	}
 	
 
 	public static void main(String[] args) {
