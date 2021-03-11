@@ -12,6 +12,23 @@ public class Game {
 		//System.out.println(value);
 		return value;
 	}
+	double check()
+	{
+		double value=Math.floor(Math.random()*10)%3;
+		/*if(value==0)
+		{
+			System.out.println("no play");
+		}
+		else if(value==1)
+		{
+			System.out.println("ladder");
+		}
+		else
+		{
+			System.out.println("snake");
+		}*/
+		return value;
+	}
 	
 
 	public static void main(String[] args) {
